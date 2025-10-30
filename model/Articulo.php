@@ -1,6 +1,6 @@
 <?php
 // Clase Artículo
-class Articulo{
+class articulo{
     public $nombre;
     public $precio;
     public $disponibilidad;
