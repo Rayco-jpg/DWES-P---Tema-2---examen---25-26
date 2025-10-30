@@ -117,7 +117,5 @@ function imprimirUbicaciones($ubicaciones) {
 <?php
 imprimirPedido($pedido, $menu);
 ?>
-
-
 <h2>Ubicaciones de Recogida:</h2>
 <?php imprimirUbicaciones($ubicaciones); ?>
