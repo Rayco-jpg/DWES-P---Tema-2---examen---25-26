@@ -1,10 +1,10 @@
 <?php
 // Clase Artículo
 class articulo{
-    private $nombre;
-    private $precio;
-    private $disponibilidad;
-    private $categoria;
+    public $nombre;
+    public $precio;
+    public $disponibilidad;
+    public $categoria;
 
     public function __construct($nombre, $precio, $disponibilidad, $categoria) {
         $this->nombre = $nombre;
